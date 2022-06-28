@@ -1,0 +1,43 @@
+.App {
+    text-align: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 10%);
+}
+
+.App-header {
+    background-color: white;
+    width: 800px;
+    height: 300px;
+    margin: 100px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.message-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    background-color: gray;
+    padding-top: 50px;
+}
+
+.container {
+    min-width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 100px 0 0 0;
+    border-radius: 15px;
+}
+
+
