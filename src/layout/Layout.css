@@ -1,0 +1,99 @@
+header {
+    height: 100px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+.link {
+    height: 50px;
+    margin-right: 20px;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.link:hover {
+    background-color: white;
+    cursor: pointer;
+}
+ .link:hover h2{
+    color: blue;
+}
+h2 {
+    text-decoration: none;
+    color: black;
+
+}
+input {
+    height: 30px;
+    width: 320px;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 28px;
+}
+.box-chats {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 400px;
+}
+.container-chats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    min-height: 70px;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: lightblue;
+
+}
+.chats-flex {
+    display: flex;
+    justify-content: center;
+}
+.btn-add-name {
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 24px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.btn-add-name:hover {
+    background-color: lightblue;
+    color: black;
+}
+.btn-add-name:active {
+    background-color: green;
+}
+.btn {
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    align-self: center;
+    line-height: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: red;
+}
