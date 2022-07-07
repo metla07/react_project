@@ -1,13 +1,21 @@
 import './App.css';
-import Message from "./Message";
+import {useDispatch, useSelector} from "react-redux";
 
 function App() {
-    const nameMessage = "Привет Реакт"
+    const count = useSelector(state => state.count);
+    const dispatch = useDispatch();
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <Message name = {nameMessage}/>
-      </header>
+        <div className={'btn-container'}>
+            <button onClick={() => dispatch({type:'plus'})}>+</button>
+            <button onClick={() => dispatch({type:'minus'})}> - </button>
+            <button className={'btn-red'} onClick={() => dispatch({type:'reset'})}>reset</button>
+        </div>
+        <div>
+           Счётчик : <h1>{ count }</h1>
+        </div>
     </div>
   );
 }
