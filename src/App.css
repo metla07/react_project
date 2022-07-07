@@ -1,0 +1,41 @@
+.App {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 900px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.btn-container {
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+
+}
+button {
+  min-width: 100px ;
+  margin-left: 30px;
+  height: 50px;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  background-color: grey;
+  font-weight: bold;
+  font-size: 34px;
+}
+button:hover {
+  background-color: lightblue;
+}
+button:active {
+  background-color: green;
+}
+.btn-red {
+  background-color: black;
+  color: white;
+}
+.btn-red:hover {
+  background-color: red;
+}
