@@ -1,0 +1,136 @@
+.App {
+    text-align: center;
+    margin: 0 auto;
+    background-color: grey;
+
+}
+
+.chats-container {
+    text-align: left;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: darkblue;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    min-height: 300px;
+    width: 40%;
+    min-width: 400px;
+
+}
+
+.Link-to-home {
+    color: blue;
+    align-self: center;
+    width: 100%;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.Link {
+    color: white;
+    text-decoration: none;
+    margin: 0 0 10px 10px;
+}
+
+.Link:hover {
+    color: red;
+}
+
+.messages-show {
+    color: blue;
+    padding: 20px;
+    margin: 0 auto;
+    min-height: 200px;
+    width: 40%;
+    min-width: 400px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 10%);
+    border-radius: 10px;
+
+}
+
+.add-message-container {
+    display: flex;
+}
+
+.message-box {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid blue;
+    height: 70px;
+
+}
+
+.input {
+    outline-color: lightblue;
+    padding: 10px;
+    color: blue;
+    border: none;
+    background-color: lightpink;
+    height: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.btn {
+    border-radius: 10px;
+    background-color: blue;
+    padding: 5px;
+    margin-left: 20px;
+    border: none;
+    outline: none;
+    height: 30px;
+    align-self: center;
+    font-weight: bold;
+
+}
+
+.btn:hover {
+    background-color: lime;
+    color: white;
+
+}
+
+.btn-delete {
+    background-color: grey;
+    border-radius: 10px;
+    border: none;
+    align-self: center;
+
+    outline: none;
+    height: 30px;
+}
+
+.btn-delete:hover {
+    background-color: red;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+.not-found {
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+    font-size: 2.5em;
+
+}
+
+.not-found-p {
+    font-size: 1.5em;
+    color: lightcoral;
+}
